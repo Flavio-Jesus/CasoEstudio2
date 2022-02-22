@@ -47,7 +47,6 @@ namespace CasoEstudio2
             this.button15 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             this.btnDivide = new System.Windows.Forms.Button();
-            this.btnPercentage = new System.Windows.Forms.Button();
             this.btnDeleteNumber = new System.Windows.Forms.Button();
             this.btnEliminarTodo = new System.Windows.Forms.Button();
             this.btnQuit = new System.Windows.Forms.Button();
@@ -76,7 +75,7 @@ namespace CasoEstudio2
             // btn1
             // 
             this.btn1.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn1.Location = new System.Drawing.Point(10, 360);
+            this.btn1.Location = new System.Drawing.Point(7, 360);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(60, 60);
             this.btn1.TabIndex = 1;
@@ -87,7 +86,7 @@ namespace CasoEstudio2
             // btn0
             // 
             this.btn0.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn0.Location = new System.Drawing.Point(10, 426);
+            this.btn0.Location = new System.Drawing.Point(7, 426);
             this.btn0.Name = "btn0";
             this.btn0.Size = new System.Drawing.Size(126, 60);
             this.btn0.TabIndex = 2;
@@ -108,7 +107,7 @@ namespace CasoEstudio2
             // btnSubtract
             // 
             this.btnSubtract.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSubtract.Location = new System.Drawing.Point(208, 360);
+            this.btnSubtract.Location = new System.Drawing.Point(202, 360);
             this.btnSubtract.Name = "btnSubtract";
             this.btnSubtract.Size = new System.Drawing.Size(60, 60);
             this.btnSubtract.TabIndex = 4;
@@ -119,7 +118,7 @@ namespace CasoEstudio2
             // btn3
             // 
             this.btn3.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn3.Location = new System.Drawing.Point(142, 360);
+            this.btn3.Location = new System.Drawing.Point(139, 360);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(60, 60);
             this.btn3.TabIndex = 5;
@@ -130,7 +129,7 @@ namespace CasoEstudio2
             // btn2
             // 
             this.btn2.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn2.Location = new System.Drawing.Point(76, 360);
+            this.btn2.Location = new System.Drawing.Point(73, 360);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(60, 60);
             this.btn2.TabIndex = 6;
@@ -152,7 +151,7 @@ namespace CasoEstudio2
             // btnSum
             // 
             this.btnSum.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSum.Location = new System.Drawing.Point(208, 426);
+            this.btnSum.Location = new System.Drawing.Point(205, 426);
             this.btnSum.Name = "btnSum";
             this.btnSum.Size = new System.Drawing.Size(60, 60);
             this.btnSum.TabIndex = 8;
@@ -163,7 +162,7 @@ namespace CasoEstudio2
             // btnComma
             // 
             this.btnComma.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnComma.Location = new System.Drawing.Point(142, 426);
+            this.btnComma.Location = new System.Drawing.Point(139, 426);
             this.btnComma.Name = "btnComma";
             this.btnComma.Size = new System.Drawing.Size(60, 60);
             this.btnComma.TabIndex = 9;
@@ -185,7 +184,7 @@ namespace CasoEstudio2
             // button11
             // 
             this.button11.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button11.Location = new System.Drawing.Point(76, 294);
+            this.button11.Location = new System.Drawing.Point(73, 294);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(60, 60);
             this.button11.TabIndex = 13;
@@ -196,7 +195,7 @@ namespace CasoEstudio2
             // button12
             // 
             this.button12.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button12.Location = new System.Drawing.Point(142, 294);
+            this.button12.Location = new System.Drawing.Point(139, 294);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(60, 60);
             this.button12.TabIndex = 12;
@@ -207,7 +206,7 @@ namespace CasoEstudio2
             // btn4
             // 
             this.btn4.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn4.Location = new System.Drawing.Point(10, 294);
+            this.btn4.Location = new System.Drawing.Point(7, 294);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(60, 60);
             this.btn4.TabIndex = 11;
@@ -229,7 +228,7 @@ namespace CasoEstudio2
             // button15
             // 
             this.button15.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button15.Location = new System.Drawing.Point(139, 228);
+            this.button15.Location = new System.Drawing.Point(139, 229);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(60, 60);
             this.button15.TabIndex = 17;
@@ -251,24 +250,13 @@ namespace CasoEstudio2
             // btnDivide
             // 
             this.btnDivide.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnDivide.Location = new System.Drawing.Point(202, 228);
+            this.btnDivide.Location = new System.Drawing.Point(205, 228);
             this.btnDivide.Name = "btnDivide";
             this.btnDivide.Size = new System.Drawing.Size(60, 60);
             this.btnDivide.TabIndex = 15;
             this.btnDivide.Text = "/";
             this.btnDivide.UseVisualStyleBackColor = true;
             this.btnDivide.Click += new System.EventHandler(this.clickOption);
-            // 
-            // btnPercentage
-            // 
-            this.btnPercentage.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnPercentage.Location = new System.Drawing.Point(271, 228);
-            this.btnPercentage.Name = "btnPercentage";
-            this.btnPercentage.Size = new System.Drawing.Size(60, 60);
-            this.btnPercentage.TabIndex = 14;
-            this.btnPercentage.Text = "%";
-            this.btnPercentage.UseVisualStyleBackColor = true;
-            this.btnPercentage.Click += new System.EventHandler(this.clickOption);
             // 
             // btnDeleteNumber
             // 
@@ -306,7 +294,7 @@ namespace CasoEstudio2
             // btnChange
             // 
             this.btnChange.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnChange.Location = new System.Drawing.Point(202, 162);
+            this.btnChange.Location = new System.Drawing.Point(275, 229);
             this.btnChange.Name = "btnChange";
             this.btnChange.Size = new System.Drawing.Size(60, 60);
             this.btnChange.TabIndex = 20;
@@ -323,6 +311,7 @@ namespace CasoEstudio2
             this.btnMemoryRecall.TabIndex = 28;
             this.btnMemoryRecall.Text = "MR";
             this.btnMemoryRecall.UseVisualStyleBackColor = true;
+            this.btnMemoryRecall.Click += new System.EventHandler(this.btnMemoryRecall_Click);
             // 
             // btnMemoryStorage
             // 
@@ -333,6 +322,7 @@ namespace CasoEstudio2
             this.btnMemoryStorage.TabIndex = 27;
             this.btnMemoryStorage.Text = "MS";
             this.btnMemoryStorage.UseVisualStyleBackColor = true;
+            this.btnMemoryStorage.Click += new System.EventHandler(this.btnMemoryStorage_Click);
             // 
             // btnMemoryClear
             // 
@@ -343,26 +333,29 @@ namespace CasoEstudio2
             this.btnMemoryClear.TabIndex = 26;
             this.btnMemoryClear.Text = "MC";
             this.btnMemoryClear.UseVisualStyleBackColor = true;
+            this.btnMemoryClear.Click += new System.EventHandler(this.btnMemoryClear_Click);
             // 
             // btnSumMemory
             // 
             this.btnSumMemory.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSumMemory.Location = new System.Drawing.Point(202, 96);
+            this.btnSumMemory.Location = new System.Drawing.Point(205, 96);
             this.btnSumMemory.Name = "btnSumMemory";
             this.btnSumMemory.Size = new System.Drawing.Size(60, 60);
             this.btnSumMemory.TabIndex = 25;
             this.btnSumMemory.Text = "M+";
             this.btnSumMemory.UseVisualStyleBackColor = true;
+            this.btnSumMemory.Click += new System.EventHandler(this.btnSumMemory_Click);
             // 
             // btnSubtractMemory
             // 
             this.btnSubtractMemory.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSubtractMemory.Location = new System.Drawing.Point(271, 96);
+            this.btnSubtractMemory.Location = new System.Drawing.Point(275, 96);
             this.btnSubtractMemory.Name = "btnSubtractMemory";
             this.btnSubtractMemory.Size = new System.Drawing.Size(60, 60);
             this.btnSubtractMemory.TabIndex = 24;
             this.btnSubtractMemory.Text = "M-";
             this.btnSubtractMemory.UseVisualStyleBackColor = true;
+            this.btnSubtractMemory.Click += new System.EventHandler(this.btnSubtractMemory_Click);
             // 
             // Calculadora
             // 
@@ -382,7 +375,6 @@ namespace CasoEstudio2
             this.Controls.Add(this.button15);
             this.Controls.Add(this.button16);
             this.Controls.Add(this.btnDivide);
-            this.Controls.Add(this.btnPercentage);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.btn4);
@@ -426,7 +418,6 @@ namespace CasoEstudio2
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Button btnDivide;
-        private System.Windows.Forms.Button btnPercentage;
         private System.Windows.Forms.Button btnDeleteNumber;
         private System.Windows.Forms.Button btnEliminarTodo;
         private System.Windows.Forms.Button btnQuit;

@@ -31,26 +31,37 @@ namespace CasoEstudio2
         {
             num2 = Convert.ToDouble(txtResultado.Text);
 
-            if (option == '+')
+            try
             {
-                txtResultado.Text = (num1 + num2).ToString();
-                num1 = Convert.ToDouble(txtResultado.Text);
+                if (option == '+')
+                {
+                    txtResultado.Text = (num1 + num2).ToString();
+                    num1 = Convert.ToDouble(txtResultado.Text);
+                }
+                else if (option == '-')
+                {
+                    txtResultado.Text = (num1 - num2).ToString();
+                    num1 = Convert.ToDouble(txtResultado.Text);
+                }
+                else if (option == 'x')
+                {
+                    txtResultado.Text = (num1 * num2).ToString();
+                    num1 = Convert.ToDouble(txtResultado.Text);
+                }
+                else if (option == '/')
+                {
+                    txtResultado.Text = (num1 / num2).ToString();
+                    num1 = Convert.ToDouble(txtResultado.Text);
+                }
+
+                Validar();
             }
-            else if (option == '-')
+            catch (Exception)
             {
-                txtResultado.Text = (num1 - num2).ToString();
-                num1 = Convert.ToDouble(txtResultado.Text);
+                txtResultado.Text = "SYNTAX ERROR";
             }
-            else if (option == 'x')
-            {
-                txtResultado.Text = (num1 * num2).ToString();
-                num1 = Convert.ToDouble(txtResultado.Text);
-            }
-            else if (option == '/')
-            {
-                txtResultado.Text = (num1 / num2).ToString();
-                num1 = Convert.ToDouble(txtResultado.Text);
-            }
+
+            
         }
 
         private void btnQuit_Click(object sender, EventArgs e)
@@ -94,12 +105,51 @@ namespace CasoEstudio2
 
         }
 
+        private void btnMemoryClear_Click(object sender, EventArgs e)
+        {
+            num2 = 0;
+            num1 = 0;
+        }
+
+        private void btnMemoryRecall_Click(object sender, EventArgs e)
+        {
+            txtResultado.Text = num2.ToString();
+        }
+
+        private void btnMemoryStorage_Click(object sender, EventArgs e)
+        {
+            num2 = Convert.ToDouble(txtResultado.Text);
+            txtResultado.Text = "0";
+        }
+
+        private void btnSumMemory_Click(object sender, EventArgs e)
+        {
+            num2 = (Convert.ToDouble(txtResultado.Text) + num2);
+            txtResultado.Text = "0";
+            Validar();
+        }
+
+        private void btnSubtractMemory_Click(object sender, EventArgs e)
+        {
+            num2 = (Convert.ToDouble(txtResultado.Text) - num2);
+            txtResultado.Text = "0";
+            Validar();
+        }
+
         private void clickOption(object sender, EventArgs e)
         {
             var boton = ((Button)sender);
             num1 = Convert.ToDouble(txtResultado.Text);
             option = Convert.ToChar(boton.Text);
             txtResultado.Text = "0";
+        }
+
+        private void Validar()
+        {
+            if (txtResultado.Text.Length > 20)
+            {
+                txtResultado.Text = "No soportado.";
+            }
         }
 
     }
