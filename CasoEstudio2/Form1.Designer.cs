@@ -389,10 +389,12 @@ namespace CasoEstudio2
             this.Controls.Add(this.btn0);
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.txtResultado);
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.Name = "Calculadora";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.validarTeclas);
             this.ResumeLayout(false);
             this.PerformLayout();
 

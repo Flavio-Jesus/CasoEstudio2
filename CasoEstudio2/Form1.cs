@@ -144,6 +144,34 @@ namespace CasoEstudio2
             txtResultado.Text = "0";
         }
 
+        private void validarTeclas(object sender, KeyEventArgs e)
+        {
+            if (e.Control && e.KeyCode.ToString().Equals("L"))
+            {
+                btnMemoryClear_Click(sender, e);
+            }
+            if (e.Control && e.KeyCode.ToString().Equals("R"))
+            {
+                btnMemoryRecall_Click(sender, e);
+            }
+            if (e.Control && e.KeyCode.ToString().Equals("M"))
+            {
+                btnMemoryStorage_Click(sender, e);
+            }
+            if (e.Control && e.KeyCode.ToString().Equals("P"))
+            {
+                btnSumMemory_Click(sender, e);
+            }
+            if (e.Control && e.KeyCode.ToString().Equals("Q"))
+            {
+                btnSubtractMemory_Click(sender, e);
+            }
+            if (e.KeyCode.ToString().Equals("Delete"))
+            {
+                btnDeleteNumber_Click(sender, e);
+            }
+        }
+
         private void Validar()
         {
             if (txtResultado.Text.Length > 20)
